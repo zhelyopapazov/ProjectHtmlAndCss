@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Arizonia');
+
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: url("screenshots/slider-index.jpg") no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 80px 0 0 20px;
+    font-weight: 900;
+    color: #ff8c00;
+    text-shadow: 2px 2px #686868;
+    text-transform: uppercase;
+}
+
+.header-section {
+    font-size: 80px;
+    font-family: 'Lato', sans-serif;
+    margin: 10px;
+    padding: 5px 0 0 20px;
+    font-weight: 900;
+    color: #ff8c00;
+    text-shadow: 2px 2px #686868;
+    text-transform: uppercase;
+    text-align: center;
+    background: #686868;
+    border-radius: 100px;
+}
+
+nav {
+    margin: 20px;
+    position: absolute;
+    left: 200px;
+    font-size: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 7px;
+    height: 20px;
+    line-height: 20px;
+}
+
+nav li {
+    display: inline-block;
+    background: #686868;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+nav a {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+a, a:link, a:active, a:visited {
+    color: #ff8c00;
+    padding: 5px 7px 10px 7px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav > ul > li a:hover {
+    color: red;
+}
+
+nav > ul > li:hover {
+    background: #ff8c00;
+}
+
+.content {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    height: 100%;
+}
+
+.content article {
+    margin-bottom: 20px;
+    background: #686868;
+    border-radius: 100px;
+}
+
+.content img {
+    width: 300px;
+    height: 200px;
+    margin-right: 15px;
+    float: left;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+article p {
+    font-size: 25px;
+    color: #ff8c00;
+    margin: 0;
+    padding: 50px;
+}
+
+article p:first-of-type:first-letter {
+    font-size: 32px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+article h2 {
+    font-weight: 900;
+    color: #ff8c00;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #686868;
+}
+
+footer span {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: #ff8c00;
+}
+
+fa.fa-smile-o {
+
+}
