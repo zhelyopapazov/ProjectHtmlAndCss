@@ -2,41 +2,77 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Funny Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<nav>
-    <ul>
-        <li><a href="index.html" title="home" id="home">Начало</a></li>
-        <li><a href="jokes.html" title="jokes" id="news">Вицове</a></li>
-        <li><a href="gifs.html" title="gifs" id="about-us">Гифчета</a></li>
-        <li><a href="contact-us.html" title="contact-us" id="contact-us">contact us</a></li>
-    </ul>
-</nav>
+<div class="wrapper">
 
-<header class="header">
-    <h1>Забавната страница</h1>
-</header>
+    <header class="header">
+        <nav class="nav-top">
+            <ul class="nav-container">
+                <li><a href="index.html" title="home" class="home">Начало</a></li>
+                <li><a href="jokes.html" title="jokes" class="news">Вицове</a></li>
+                <li><a href="gifs.html" title="gifs" class="about-us">Гифчета</a></li>
+                <li><a href="#" title="Contact Us" class="contact-us">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="heading">
+            <h1>Забавната страница</h1>
+            <h2>"Teamwork Fun Project"</h2>
+            <p>Momchil Petrov, Zhelyo Papazov, Emiliyan Sartonev</p>
+        </div>
+    </header>
 
 <main class="content">
-    <section>
+    <section class="joke-of-the-day">
         <header class="header-section">
-            Виц на деня :)
+            <a href="jokes.html">Виц на деня !!!</a>
         </header>
         <article>
-            <img src="screenshots/code.jpg" alt="jokes-picture">
-
+            <div class="article-img">
+                <p>jokes-picture</p>
+            </div>
             <p>
-                По думите на клиента: “Компютъра не ще да се включи – викам оня луд човек  админа. Дойде той, вдигна ръце към небето, промърмори някакви неясни думи, завъртя ми стола 10 пъти около оста му, ритна компютъра, наведе се под бюрото, и пак промърмори нещо неясно, вкючи компютъра и той тръгна! Пак дигна ръце към небето, промърмора нещо и излезе.”
-                По думите на админа:
-                “Отивам при юзъра – а тоя глупак така се е въртял на стола, че намотал около него захранващия кабел. Напсувах го яко ама тихо да не ме чуе, разплетох кабела, ритнах компютъра по-далече под бюрото, включих го, пак го напсувах и си излязох.
+                Иванчо - приказки за програмисти...<br>
+                .<br>
+                На Иванчо са му дали 3 ябълки..<br>
+                Той е изял 2..<br>
+                Колко ябълки има Иванчо?.<br>
+                Мислите си че 1?.<br>
+                Ама никъде не е казано, колко ябълки е имал Иванчо преди да му дадат 3-те..<br>
+                Извод - нулирайте си променливите!.<br>
+                .<br>
+                Иванчо има 3 ябълки. Дали му още 3. Той изял 2. Колко ябълки има Иванчо?.<br>
+                4? Неееееееееее! 6! Двете ги е изял един ден по рано..<br>
+                Извод - синхронизирайте си нишките!.<br>
+                .<br>
+                Иванчо имал 5 ябълки. Изял 2. Колко са му останали?.<br>
+                3? Нееее! Той не е ял свои ябълки! Пак има 5!.<br>
+                Извод - защитавайте си адресното пространство!.<br>
+                .<br>
+                На Иванчо му дали 3 ябълки. Той ги изял..<br>
+                На другия ден дошли да му ги искат, защото били дадени само за съхранение..<br>
+                Извод - четете си спецификацията..<br>
             </p>
+        </article>
+    </section>
+    <section class="gif-of-the-day">
+        <header class="header-section">
+            <a href="gifs.html">Гифче на деня ;)</a>
+        </header>
+        <article>
+            <div class="article-img">
+                <p>jokes-picture</p>
+            </div>
+            <a href="gifs.html">#Like A BOSS</a>
         </article>
     </section>
 </main>
 <footer>
-    <span>Copyright &copy; 2017</span>
+    <a href="#">Copyright &copy; 2017</a>
 </footer>
+</div>
 </body>
 </html>
