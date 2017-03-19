@@ -354,7 +354,6 @@ textarea {
 }
 
 .gifs {
-    display: flex;
     width: 100%;
     margin-left: 15%;
     margin-right: 15%;
@@ -363,8 +362,16 @@ textarea {
     margin-top: 1em;
 }
 
-article > img {
+article ul li img {
     margin: 10px;
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+}
+
+ul li {
+    list-style-type: none;
+    float: left;
     position: relative;
-    left: 85px;
+    left: 40px;
 }
