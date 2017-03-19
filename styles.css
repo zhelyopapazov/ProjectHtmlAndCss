@@ -202,7 +202,7 @@ section {
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-.content article {
+.content article, .gifs article{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -351,4 +351,20 @@ input[type=submit]:hover {
 
 textarea {
     height: 200px;
+}
+
+.gifs {
+    display: flex;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+article > img {
+    margin: 10px;
+    position: relative;
+    left: 85px;
 }
