@@ -316,7 +316,6 @@ footer a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-<<<<<<< HEAD
 
 input[type=text], select, textarea {
     width: 100%;
@@ -374,5 +373,3 @@ ul li {
     position: relative;
     left: 40px;
 }
-=======
->>>>>>> origin/gh-pages
