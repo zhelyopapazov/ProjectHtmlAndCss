@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>The Funny Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="jcarousel/jquery-1.4.4.min.js" type="text/javascript"></script>
+
+    <script src="jcarousel/jsCarousel-2.0.0.js" type="text/javascript"></script>
+
+    <script src="jcarousel/jcarousel-additional.js" type="text/javascript"></script>
+
+    <link href="jcarousel/jsCarousel-2.0.0.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <nav>
@@ -24,8 +31,8 @@
             Виц на деня
         </header>
         <article>
-            <img src="screenshots/code.jpg" alt="jokes-picture">
-
+            <img id="article-inside-image" src="screenshots/code.jpg" alt="jokes-picture">
+            <span class="articleTextPadding">
             <p>
                 Инженер от Microsoft, инженер от Intel и програмист от Linux се намират в тоалетната на Мол-а. Първи излиза от кабинката инженера от Microsoft и докато си мие ръцете, с обилно количество сапун, облива ги с огромно количество вода и най-накрая използва огромно количество хартиени кърпички, за да подсуши ръцете си и... на висок глас прави обобщение:
                 - Ние от Майкрософт, всичко което правим - го правим добре!
@@ -34,23 +41,71 @@
                 Програмистът от Linux, без изобщо да си мие ръцете, поглежда двамата и казва самодоволно:
                 - А, ние от Linux, никога не си напикаваме ръцете...
             </p>
+            </span>
         </article>
+        <span class="mostViewedJokes">
+            Най-гледани вицове
+        </span>
         <article>
+            <div style="margin: 0 auto 45px auto;">
+            <div id="demo-wrapper">
+                <div id="demo-right">
+                    <div id="hWrapper">
+                        <div id="carouselh">
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">When cars fly</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">Flying cars?</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">Another joke</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">Joke mania</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">Hahahah</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">Lol omg another one</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">THE WINNER</span></div>
+                            <div>
+                                <img alt="" src="screenshots/code.jpg" /><br />
+                                <span class="thumbnail-text">THE WINNER</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+        </article>
+        <span class="mostViewedJokes">
+            Произволни вицове
+        </span>
+        <article>
+            <span class="articleTextPadding">
             <h2>When Cars Fly</h2>
-            <img src="screenshots/code.jpg" alt="jokes-picture">
-            <p>
+            <span class="textWithImage"> <img src="screenshots/code.jpg" alt="jokes-picture" id="article">
+            <p id="textInArticle">
                 the automobile has long been a symbol of everything great and everything terrible about America. On
                 the one hand: freedom, individualism, power, speed. The taming of millions of miles of varied
                 wildernesses through roads, then highways, then interstates. The capacity of American
                 industry—Pittsburgh’s steel, Akron’s rubber, Detroit’s factories.
-
+            </p></span>
+            <p>
                 But on the other hand: gas-guzzling SUVs. Traffic and sprawl. The abandonment of mass transit. The
                 suburb and then the exurb, with their undeniable ties to white flight and segregation. The decline
                 of the Rust Belt, the near-collapse of the Big Three automakers during the Great Recession of 2008,
                 and the slow death of American manufacturing and blue-collar work.
             </p>
+            </span>
         </article>
         <article>
+            <span class="articleTextPadding">
             <h2>Where Are the Flying Cars?</h2>
             <img src="images/.jpg" alt="jokes-picture">
 
@@ -65,6 +120,7 @@
                 have a prototype ready for testing by 2018. A commercial model will take at least another five
                 years.
             </p>
+            </span>
         </article>
     </section>
 </main>
