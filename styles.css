@@ -284,6 +284,8 @@ article a {
     display: flex;
     flex-direction: column;
     background: url(https://s-media-cache-ak0.pinimg.com/originals/e0/6c/72/e06c72a3be87fcdce047b74fcea810f4.png) no-repeat center;
+    background-size: cover;
+ 
 
 
 }
