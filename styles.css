@@ -222,6 +222,10 @@ section {
     margin-bottom: 1em;
 }
 
+article > p {
+    margin: 0 auto;
+}
+
 .article-img {
     display: flex;
     margin: 2em;
