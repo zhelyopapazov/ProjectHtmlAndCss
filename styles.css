@@ -119,6 +119,7 @@ nav > ul > li:hover {
 }
 h1 {
     display: flex;
+    flex-wrap: wrap;
     width: 60%;
     font-size: 7em;
     font-family: 'Lobster', cursive, sans-serif;
@@ -132,6 +133,8 @@ h1 {
     background: linear-gradient(top, #ff4f68, #ff0c76);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 0.05em;
+    transform:skew(170deg,174deg);
 }
 
 
@@ -143,22 +146,21 @@ h2 {
     justify-content: flex-end;
     font-size: 2em;
     font-weight: bolder;
-    padding-right: 2.2em;
-    padding-top: 0.6em;
-    padding-bottom: 0.6em;
+    padding-right: 2.8em;
+    padding-top: 2.1em;
     text-shadow: 0px 0px 10px rgba(34, 83, 16, 0.95);
     color: #fff0ed;
     margin: 0;
+    transform:skew(170deg,174deg);
 }
 header p {
-    font-family: 'Merriweather', serif;
+    font-family: 'Bad Script', cursive;
     display: flex;
 
     justify-content: flex-end;
-    font-size: 1.1em;
+    font-size: 1.4em;
     font-weight: 300;
     padding-right: 0.6em;
-    padding-top: 0.6em;
     padding-bottom: 0.6em;
     padding-left: 0.6em;
     margin-right: 2.8em;
@@ -196,18 +198,19 @@ header p {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
 section {
     display: flex;
     width: 100%;
     justify-content: flex-start;
     flex-wrap: wrap;
 }
-.content article, .gifs article{
+.content article {
     display: flex;
     flex-direction: row;
     width: 100%;
     flex-wrap: wrap;
-    justify-content: flex-start;
     background: url(http://cdn.wallpapersafari.com/52/21/tmDIcK.jpg) no-repeat center;
     background-size: cover;
     border: 5px solid rgb(255, 255, 255);
@@ -238,12 +241,14 @@ article p {
     font-weight: 500;
     text-shadow: 1px 1px rgba(255, 255, 255, 0.73);
     font-size: 1.4em;
-    flex-grow: 10;
+    width: 60%;
+
 
 }
 article a {
     display: flex;
     justify-content: center;
+    width: 100%;
     font-size: 2em;
     font-weight: bolder;
     text-shadow: 0px 0px 10px rgba(34, 83, 16, 0.95);
@@ -260,14 +265,17 @@ article a {
     text-align: center;
     font-weight: 900;
     color: rgba(255, 12, 118, 0.4);
-    text-shadow: 2px 2px rgba(255, 17, 115, 0.73);
+    text-shadow: 2px 2px rgba(186, 29, 255, 0.95);
     background: -webkit-linear-gradient(top, #b7fffa, #66d3ff);
     background: linear-gradient(top, #4594ff, #3300be);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .gif-of-the-day .article-img {
+    display: flex;
+
     background: url(https://68.media.tumblr.com/16dd14cdfe44aa04eff6631e77011526/tumblr_nllmvfQvgj1uqlfk4o1_500.gif) no-repeat top;
+    background-size: contain;
     height: 30em;
 
 }
@@ -276,22 +284,10 @@ article a {
     display: flex;
     flex-direction: column;
     background: url(https://s-media-cache-ak0.pinimg.com/originals/e0/6c/72/e06c72a3be87fcdce047b74fcea810f4.png) no-repeat center;
-    background-size: cover;
+
 
 }
-article p:first-of-type:first-letter {
-    font-size: 32px;
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
-}
 
-article h2 {
-    font-weight: 900;
-    color: #ff8c00;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
 
 footer {
     display: flex;
@@ -317,54 +313,4 @@ footer a {
     background: linear-gradient(top, #4594ff, #3300be);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-}
-
-input[type=submit] {
-    width: 200px;
-    background-color: rgba(255, 12, 118, 0.4);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #66d3ff;
-}
-
-.container {
-    border-radius: 5px;
-    padding: 20px;
-    margin: 0 auto;
-}
-
-textarea {
-    height: 200px;
-}
-
-.gifs {
-    display: flex;
-    width: 100%;
-    margin-left: 15%;
-    margin-right: 15%;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1em;
-}
-
-article > img {
-    margin: 10px;
-    position: relative;
-    left: 85px;
 }
