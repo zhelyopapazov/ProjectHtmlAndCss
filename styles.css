@@ -163,7 +163,7 @@ header p {
     padding-right: 0.6em;
     padding-bottom: 0.6em;
     padding-left: 0.6em;
-    margin-right: 2.8em;
+    margin-right: 4.2em;
     text-shadow: 0px 0px 10px rgba(34, 83, 16, 0.95);
     color: #fff0ed;
     background: rgba(0, 0, 0, 0.12);
@@ -172,7 +172,7 @@ header p {
 
 header p a {
     text-decoration: none;
-    color: orangered;
+    color: #ffffff;
 }
 
 /*main*/
@@ -229,11 +229,13 @@ section {
 
 article > p {
     margin: 0 auto;
+    padding: 1.2em;
+
 }
 
 .article-img {
     display: flex;
-    margin: 2em;
+    margin: 2em 0 2em 0;
     flex-grow: 90;
     background: url(https://cdn.meme.am/cache/instances/folder620/57842620.jpg) no-repeat top;
     background-size: contain;
@@ -400,25 +402,40 @@ textarea {
     height: 200px;
 }
 
+.gifs section {
+
+}
 .gifs {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gifs article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     margin-left: 15%;
     margin-right: 15%;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1em;
+
 }
 
-article ul li img {
+.gifs article ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gifs article ul li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+}
+.gifs article ul li img {
     margin: 10px;
     overflow: auto;
     width: 200px;
     height: 200px;
-}
-
-ul li {
-    list-style-type: none;
-    float: left;
-    position: relative;
-    left: 40px;
 }
