@@ -13,6 +13,11 @@
         margin-left: 13%;
         margin-right: 13%;
     }
+    .gifs article {
+        margin-left: 13%;
+        margin-right: 13%;
+
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -34,6 +39,11 @@
         margin-left: 8%;
         margin-right: 8%;
     }
+    .gifs article {
+        margin-left: 8%;
+        margin-right: 8%;
+
+    }
 }
 @media screen and (max-width: 1024px) {
     h1 {
@@ -47,6 +57,11 @@
     .content {
         margin-left: 3%;
         margin-right: 3%;
+    }
+    .gifs article {
+        margin-left: 8%;
+        margin-right: 8%;
+
     }
     .header-section {
         font-size: 4em;
@@ -64,7 +79,7 @@
         justify-content: center;
     }
     h1 {
-        width: 100%;
+        width: 66%;
         font-size: 4em;
         justify-content: center;
         transform:skew(170deg,174deg);
@@ -99,12 +114,23 @@
     nav li {
         width: 100%;
         justify-content: center;
+
+    }
+    .gifs article {
+        margin-left: 5%;
+        margin-right: 5%;
+
     }
 
 }
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 3.2em;
+    }
+    .gifs article {
+        margin-left: 3%;
+        margin-right: 3%;
+
     }
 }
 @media screen and (max-width: 640px) {
@@ -132,6 +158,11 @@
     .header-section {
         font-size: 2.6em;
     }
+    .gifs article {
+        margin-left: 3%;
+        margin-right: 3%;
+
+    }
 
 }
 @media screen and (max-width: 480px) {
@@ -149,8 +180,22 @@
         font-size: 1.3em;
         padding: 0.6em;
     }
+    h2 {
+        font-size: 1.6em;
+    }
+    .gifs article ul li img {
+        width: 300px;
+        height: 300px;
+    }
 
 }
 @media screen and (max-width: 320px) {
+    h2 {
+        font-size: 1.4em;
+    }
+    .gifs article ul li img {
+        width: 240px;
+        height: 240px;
+    }
 
 }
