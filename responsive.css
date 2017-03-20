@@ -132,17 +132,25 @@
         margin-right: 3%;
 
     }
+    .dev img {
+        padding-left: 2em;
+        padding-right: 2em;
+
+    }
 }
 @media screen and (max-width: 640px) {
     .content article {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
     }
     .article-img {
         display: none;
+    }
+    .video-container .article-img {
+        display: flex;
     }
     article p {
         display: flex;
@@ -161,6 +169,18 @@
     .gifs article {
         margin-left: 3%;
         margin-right: 3%;
+
+    }
+    .video {
+        min-height: 20em;
+        overflow: visible;
+    }
+    .dev img {
+        display: flex;
+        max-width: 22em;
+        margin-top: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
 
     }
 
@@ -187,6 +207,10 @@
         width: 300px;
         height: 300px;
     }
+    .video {
+        min-height: 100%;
+        overflow: visible;
+    }
 
 }
 @media screen and (max-width: 320px) {
@@ -197,5 +221,18 @@
         width: 240px;
         height: 240px;
     }
+    .dev img {
+        display: flex;
+        max-width: 17em;
+        margin-top: 2em;
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+    .video {
+        min-height: 100%;
+        overflow: visible;
+    }
+
 
 }
