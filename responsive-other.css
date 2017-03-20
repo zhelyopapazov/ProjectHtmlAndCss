@@ -87,6 +87,10 @@
         display: none;
 
     }
+    nav {
+        order: 4;
+        margin-right: 0;
+    }
     nav ul {
         justify-content: center;
         padding-left: 1em;
