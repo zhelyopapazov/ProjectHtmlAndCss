@@ -170,6 +170,11 @@ header p {
     border-radius: 1em;
 }
 
+header p a {
+    text-decoration: none;
+    color: orangered;
+}
+
 /*main*/
 
 .content {
