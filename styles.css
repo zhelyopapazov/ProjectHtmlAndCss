@@ -235,11 +235,14 @@ article > p {
 
 .article-img {
     display: flex;
-    margin: 2em 0 2em 0;
+    margin: 2em 0 0 2em;
     flex-grow: 90;
     background: url(https://cdn.meme.am/cache/instances/folder620/57842620.jpg) no-repeat top;
     background-size: contain;
 
+}
+.gif-of-the-day .article-img {
+    margin: 2em;
 }
 
 .article-img p {
